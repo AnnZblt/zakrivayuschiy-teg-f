@@ -1,1 +1,26 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: 'Inter Variable', sans-serif;
+  --accent-font: 'Press Start 2P', sans-serif;
+  --title-weight: 700;
+  --main-text-weight: 400;
+  --accent-font-size: clamp(3.0625rem, 2.4847rem + 2.4653vw, 4.0625rem);
+  --title-font-size: clamp(0.875rem, 0.55rem + 1.3867vw, 1.4375rem);
+  --text-font-size: 18px;
+  --btn-font-size: 14px;
+  --header-top-indent: clamp(7.5rem, 2.465vw + 6.922rem, 8.5rem);
+  --header-side-indent: clamp(0.875rem, 16.333vw - 2.953rem, 7.5rem);
+  --header-bottom-indent: 25px;
+  --main-bg-color: #d3d3d3;
+  --main-bg-color-transparent: rgba(211, 211, 211, 0);
+  --bg-accent-color: #e7e7e7;
+  --bg-accent-second-color: #1a1a1a;
+  --main-text-color: #000;
+  --accent-color: #000;
+  --btn-interactive-color: #fff;
+  --card-width: clamp(23.438rem, 50.077vw + 11.701rem, 43.75rem);
+  --cards-overlay-color: #fff;
+  --label-outline-color: #fff;
+  --icon-contour-color: #000;
+  --icon-fill-color: #f00;
+}
