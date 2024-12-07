@@ -7,7 +7,7 @@
 
 :root .theme-light {
   --main-font: 'Inter Variable', sans-serif;
-  --accent-font: 'Press Start 2P', sans-serif;
+  --accent-font: 'Press Start 2P', fantasy;
   --title-weight: 700;
   --main-text-weight: 400;
   --accent-font-size: clamp(3.0625rem, 2.4847rem + 2.4653vw, 4.0625rem);
@@ -34,7 +34,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --main-font: 'Inter Variable', sans-serif;
-    --accent-font: 'Press Start 2P', sans-serif;
+    --accent-font: 'Press Start 2P', fantasy;
     --title-weight: 700;
     --main-text-weight: 400;
     --accent-font-size: clamp(3.0625rem, 2.4847rem + 2.4653vw, 4.0625rem);
@@ -61,7 +61,7 @@
 
 :root .theme-dark {
   --main-font: 'Inter Variable', sans-serif;
-  --accent-font: 'Press Start 2P', sans-serif;
+  --accent-font: 'Press Start 2P', fantasy;
   --title-weight: 785;
   --main-text-weight: 465;
   --accent-font-size: clamp(3.0625rem, 2.4847rem + 2.4653vw, 4.0625rem);
@@ -82,13 +82,13 @@
   --cards-overlay-color: #000;
   --label-outline-color: #000;
   --icon-contour-color: #00cc14;
-  --icon-fill-color: #00cc14;
+  --icon-fill-color: #f00;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --main-font: 'Inter Variable', sans-serif;
-    --accent-font: 'Press Start 2P', sans-serif;
+    --accent-font: 'Press Start 2P', fantasy;
     --title-weight: 785;
     --main-text-weight: 465;
     --accent-font-size: clamp(3.0625rem, 2.4847rem + 2.4653vw, 4.0625rem);
@@ -109,6 +109,6 @@
     --cards-overlay-color: #000;
     --label-outline-color: #000;
     --icon-contour-color: #00cc14;
-    --icon-fill-color: #00cc14;
+    --icon-fill-color: #f00;
   }
 }
