@@ -299,7 +299,7 @@ html {
 }
 
 .overlayed-button:hover .button__text,
-.overlayed-button .save-button__button__svg { 
+.overlayed-button .save-button__button__svg {
   color: var(--btn-interactive-color);
   mix-blend-mode: difference;
 }
