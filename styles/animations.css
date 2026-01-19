@@ -50,7 +50,7 @@
 
 .card__icon-button .like-icon.is-liked .core,
 .card__icon-button .like-icon.is-liked .main-body,
-.card__icon-button .like-icon.is-liked .contour{
+.card__icon-button .like-icon.is-liked .contour {
   fill: var(--icon-fill-color);
 }
 
